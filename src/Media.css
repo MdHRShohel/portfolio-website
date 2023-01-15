@@ -1,0 +1,19 @@
+@media screen and (max-width: 599px) {
+    .home-top-left-image {
+        text-align: center !important;
+    }
+    .home-top-right h2 {
+        text-align: center !important;
+    }
+}
+@media screen and (max-width: 540px) {
+    .nav-text {
+        display: none;
+    }
+    .experience-block .logo-link, .experience-block-info {
+        grid-column: 1/3;
+    }
+    .experience-block-info  {
+        margin-bottom: 10px;
+    }
+}

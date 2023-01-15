@@ -1,0 +1,42 @@
+{
+  "name": "portfolio-website",
+  "version": "0.1.1",
+  "private": true,
+  "dependencies": {
+    "emailjs-com": "^2.6.4",
+    "eslint": "^6.8.0",
+    "extend": ">=3.0.2",
+    "handlebars": "^4.7.7",
+    "js-yaml": "^3.14.1",
+    "lodash": "^4.17.21",
+    "lodash.template": ">=4.5.0",
+    "mem": "^6.1.1",
+    "merge": "^2.1.1",
+    "minimist": "^1.2.7",
+    "querystringify": "^2.2.0",
+    "react": "^16.14.0",
+    "react-dev-utils": "^10.2.1",
+    "react-dom": "^16.14.0",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "^3.4.4",
+    "url-parse": "^1.5.10"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build && firebase deploy",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
