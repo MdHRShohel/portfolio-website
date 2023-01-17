@@ -20,6 +20,7 @@ class Experience extends Component {
         <div className="experience-container">
           <h2>Experience</h2>
 
+          {/* 1st Experience Block */}
           <div className="experience-block">
             <a
               href="https://www.nokia.com/"
@@ -30,20 +31,22 @@ class Experience extends Component {
               <img
                 src="img/exp/nokia.jpg"
                 className="experience-block-logo"
-                alt="Public Trust Logo"
+                alt="Logo"
               />
             </a>
             <div className="experience-block-info">
               <h3>Technical Expertise Center (TEC) Engineer</h3>
               <p>Nokia, Canada</p>
-              <span className="italic">October 2020 - Present</span>
+              <span className="italic">October 2020 to Present</span>
             </div>
+            <br />
             <p className="experience-block-text">
               Part of TEC team which offers 3rd Level of support (3LS) for
               Nokia’s WDM product platform. Specializes in next generation
               optical network automation products which offers network designs,
               deployments, and monitoring by using SDN controllers and related
               technologies.
+              <br />
               <br />
               Key responsibilities are as follows -
             </p>
@@ -99,150 +102,76 @@ class Experience extends Component {
               </li>
             </ul>
           </div>
-
-          <div className="experience-block">
-            <img
-              src="img/svg/full-stack-developer-icon.svg"
-              className="experience-block-logo"
-              alt="Freelancing logo"
-            />
-            <div className="experience-block-info">
-              <h3>Freelance Developer</h3>
-              <p className="italic">April 2021 - April 2022</p>
-            </div>
-            <div className="project-tags">
-              <div className="tag tag-html">HTML5</div>
-              <div className="tag tag-css">CSS</div>
-              <div className="tag tag-js">JS</div>
-              <div className="tag tag-php">PHP</div>
-              <div className="tag tag-wordpress">Wordpress</div>
-              <div className="tag tag-vue">Vue</div>
-              <div className="tag tag-google-cloud-platform">
-                Google Cloud Platform
-              </div>
-              <div className="tag tag-nodejs">Node JS</div>
-              <div className="tag tag-discordjs">Discord JS</div>
-            </div>
-            <p className="experience-block-text">
-              As a freelance developer I have worked on projects across{" "}
-              <a
-                href="https://gva.co.nz/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                GVA
-              </a>
-              ,{" "}
-              <a
-                href="https://www.foundationdigital.co.nz/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Foundation Digital
-              </a>
-              , WrathGames, and more. Please contact me for references and
-              project specifics.
-            </p>
-          </div>
-
+          {/* 2nd Experience Block */}
           <div className="experience-block">
             <a
-              href="https://www.ninetyblack.com/"
+              href="https://business.shaw.ca/"
               className="logo-link"
               target="_blank"
               rel="noopener noreferrer"
             >
               <img
-                src="img/svg/ninetyblack-logo.svg"
+                src="img/exp/shawb.png"
                 className="experience-block-logo"
-                alt="NinetyBlack Logo"
+                alt="exp 2 Logo"
               />
             </a>
             <div className="experience-block-info">
-              <h3>Full Stack Developer</h3>
-              <p className="italic">July 2019 - April 2021</p>
+              <h3>Network Architect</h3>
+              <h3>Optical Networks</h3>
+              <p>Shaw Communications Inc.</p>
+              <span className="italic">February, 2019 to January, 2020</span>
             </div>
-            <div className="project-tags">
-              <div className="tag tag-html">HTML5</div>
-              <div className="tag tag-scss">SCSS</div>
-              <div className="tag tag-js">JS</div>
-              <div className="tag tag-php">PHP</div>
-              <div className="tag tag-wordpress">Wordpress</div>
-              <div className="tag tag-laravel">Laravel</div>
-              <div className="tag tag-asgard">Asgard</div>
-              <div className="tag tag-react">React Native</div>
-            </div>
+            <br />
             <p className="experience-block-text">
-              At NinetyBlack I worked as a Full Stack Developer to create custom
-              Wordpress sites with unique requirements, maintained internal
-              Laravel projects using{" "}
-              <a
-                href="https://asgardcms.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Asgard
-              </a>{" "}
-              and developed mobile applications with{" "}
-              <a
-                href="https://facebook.github.io/react-native/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                React Native.
-              </a>
+              Part of ‘Optical Networks’ team responsible to engineer, design
+              and maintain core fiber optic network backbone. This team is
+              considered as 'Subject Matter Experts' for optical transport
+              network within the organization.
+              <br />
+              Each team member completes the full life cycle of assigned
+              projects –
+              <br />
+              i) Conceive network design according to requirements and best
+              available technology within budget, ii) Select required hardware,
+              software, components, iii) Prepare Bill of Materials, iv) Order
+              equipment, v) Write Method of Procedures, vi) Coordinate at the
+              field, vii) Implement the design and troubleshoot if required.
+              <br />
+              Moreover adaptation of new technology & hardware, liaison with
+              vendors and necessary evaluation and lab testing to standardize
+              every optical component is an important mandate for the team.
+              <br />
+              <br />
+              Key responsibilities are as follows -
             </p>
+            <ul className="experience-block-text">
+              <li>
+                Plan, design, optimize, implement, maintain, testing and
+                troubleshoot optical transport network infrastructure (DWDM,
+                SONET).
+              </li>
+              <li>
+                Perform all required activities related to projects for new
+                turn up, growth, addition, optimization, migration of nodes and
+                services.
+              </li>
+              <li>
+                Troubleshoot network incidents, known problems and provide
+                support as subject matter expert for optical transport
+                technologies within the organization.
+              </li>
+              <li>
+                Participate in forecasting, budget and planning for optical
+                networks based on requirements from different stakeholders and
+                required technology upgrade.
+              </li>
+              <li>
+                Perform evaluation and lab testing of DWDM and SONET equipment
+                and systems.
+              </li>
+            </ul>
           </div>
-
-          <div className="experience-block">
-            <a
-              href="https://www.luminate.one/"
-              className="logo-link"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                src="img/svg/luminateone-logo.svg"
-                className="experience-block-logo"
-                alt="LuminateOne Logo"
-              />
-            </a>
-            <div className="experience-block-info">
-              <h3>PHP Developer</h3>
-              <p className="italic">August 2018 - June 2019</p>
-            </div>
-            <div className="project-tags">
-              <div className="tag tag-html">HTML5</div>
-              <div className="tag tag-scss">SCSS</div>
-              <div className="tag tag-js">JS</div>
-              <div className="tag tag-vue">Vue</div>
-              <div className="tag tag-php">PHP</div>
-              <div className="tag tag-wordpress">Wordpress</div>
-              <div className="tag tag-laravel">Laravel</div>
-            </div>
-            <p className="experience-block-text">
-              At LuminateOne I primarily helped develop custom large and medium
-              scale web applications using{" "}
-              <a
-                href="https://laravel.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Laravel
-              </a>{" "}
-              and{" "}
-              <a
-                href="https://vuejs.org/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Vue
-              </a>
-              . This work ranged from collaborating with a team to solo
-              development and testing.
-            </p>
-          </div>
-
           <div className="university-info">
             <Link to="/education">~ Graduated Waikato University 2018 ~</Link>
           </div>
