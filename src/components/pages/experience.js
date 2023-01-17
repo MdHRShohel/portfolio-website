@@ -22,48 +22,28 @@ class Experience extends Component {
 
           <div className="experience-block">
             <a
-              href="https://www.publictrust.co.nz/"
+              href="https://www.nokia.com/"
               className="logo-link"
               target="_blank"
               rel="noopener noreferrer"
             >
               <img
-                src="img/svg/publictrust-logo.svg"
+                src="img/exp/nokia.jpg"
                 className="experience-block-logo"
                 alt="Public Trust Logo"
               />
             </a>
             <div className="experience-block-info">
               <h3>Technical Expertise Center (TEC) Engineer</h3>
-              <h5>Nokia, Canada</h5>
-              <p className="italic">October 2020 - Present</p>
-            </div>
-            <div className="project-tags">
-              <div className="tag tag-html">HTML5</div>
-              <div className="tag tag-scss">SCSS</div>
-              <div className="tag tag-js">JS</div>
-              <div className="tag tag-vue">Vue</div>
-              <div className="tag tag-php">PHP</div>
-              <div className="tag tag-laravel">Laravel</div>
+              <p>Nokia, Canada</p>
+              <span className="italic">October 2020 - Present</span>
             </div>
             <p className="experience-block-text">
-              Developing, testing, and maintaining the{" "}
-              <a
-                href="https://www.publictrustonline.co.nz/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Public Trust Platform
-              </a>{" "}
-              and{" "}
-              <a
-                href="https://www.publictrust.co.nz/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Website
-              </a>
-              .
+              Part of TEC team which offers 3rd Level of support (3LS) for
+              Nokia’s WDM product platform. Specializes in next generation
+              optical network automation products which offers network designs,
+              deployments, and monitoring by using SDN controllers and related
+              technologies.
             </p>
           </div>
 
