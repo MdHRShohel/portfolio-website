@@ -14,77 +14,92 @@ class Education extends Component {
 
   render() {
     return (
-        <div className="education-page">
-            <NavBar page="education"/>
-            <div className="education-container">
-                <h2>Education</h2>
-                <p className="education-explanation">Graduated from <a href="https://www.waikato.ac.nz/" target="_blank" rel="noreferrer noopener">Waikato University</a> with a Bachelor of Science, majoring in Computer Science. My relevant university courses are shown below.</p>
+      <div className="education-page">
+        <NavBar page="education" />
+        <div className="education-container">
+          <h2>Education</h2>
 
-                <h4>400 level</h4>
-                <ul>
-                    <li>
-                        COMP442 – Web Search: Technical and Social Issues
-                    </li>
-                </ul>
-                <h4>300 level</h4>
-                <ul>
-                    <li>
-                        COMP314 – Software Engineering Project
-                    </li>
-                    <li>
-                        <a href="https://papers.waikato.ac.nz/2017/COMP/COMP336" target="_blank" rel="noreferrer noopener">COMP336 – Graphics and Computer Games</a>
-                    </li>
-                    <li>
-                        <a href="https://papers.waikato.ac.nz/papers/2017/COMP333" target="_blank" rel="noreferrer noopener">COMP333 – Web Applications Development</a>
-                    </li>
-                    <li>
-                        COMP316 – Artificial Intelligence Techniques and Applications
-                    </li>
-                </ul>
-                <h4>200 level</h4>
-                <ul>
-                    <li>
-                        <a href="https://www.waikato.ac.nz/study/papers/compx252-interactive-computing" target="_blank" rel="noreferrer noopener">COMPX252 – Interactive Computing</a>
-                    </li>
-                    <li>
-                        <a href="https://www.waikato.ac.nz/study/papers/dsign241-design-3-aspects-of-web-design" target="_blank" rel="noreferrer noopener">DSIGN241 - Design 3: Aspects of Web Design</a>
-                    </li>
-                    <li>
-                        <a href="https://papers.waikato.ac.nz/2017/COMP/COMP235" target="_blank" rel="noreferrer noopener">COMP235 – Logic and Computation</a>
-                    </li>
-                    <li>
-                        <a href="https://papers.waikato.ac.nz/2017/COMP/COMP233" target="_blank" rel="noreferrer noopener">COMP233 – Internet Applications</a>
-                    </li>
-                    <li>
-                        <a href="https://papers.waikato.ac.nz/2017/COMP/COMP204" target="_blank" rel="noreferrer noopener">COMP204 – Object Orientated Program Design</a>
-                    </li>
-                    <li>
-                        <a href="https://papers.waikato.ac.nz/papers/2017/COMP202" target="_blank" rel="noreferrer noopener">COMP202 – Computer Communications</a>
-                    </li>
-                    <li>
-                        <a href="https://papers.waikato.ac.nz/2017/COMP/COMP200" target="_blank" rel="noreferrer noopener">COMP200 – Computer Systems</a>
-                    </li>
-                    <li>
-                        <a href="https://papers.waikato.ac.nz/2017/COMP/COMP203" target="_blank" rel="noreferrer noopener">COMP203 – Programming with Data Structures</a>
-                    </li>
-                    <li>
-                        <a href="https://papers.waikato.ac.nz/2017/COMP/COMP224" target="_blank" rel="noreferrer noopener">COMP224 – Visual Design for Interactive Media</a>
-                    </li>
-                </ul>
-                <h4>100 level</h4>
-                <ul>
-                    <li>
-                        <a href="https://papers.waikato.ac.nz/2017/COMP/COMP103" target="_blank" rel="noreferrer noopener">COMP103 – Introduction to Computer Science 1</a>
-                    </li>
-                    <li>
-                        <a href="https://papers.waikato.ac.nz/2017/COMP/COMP104" target="_blank" rel="noreferrer noopener">COMP104 – Introduction to Computer Science 2</a>
-                    </li>
-                    <li>
-                        <a href="https://papers.waikato.ac.nz/2017/COMP/COMP126" target="_blank" rel="noreferrer noopener">COMP126 – Computing Media</a>
-                    </li>
-                </ul>
+          {/* M.S. Block */}
+          <div className="experience-block">
+            <a
+              href="https://business.shaw.ca/"
+              className="logo-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="img/svg/DU_logo.svg"
+                className="experience-block-logo"
+                alt="exp 3 Logo"
+              />
+            </a>
+            <div className="experience-block-info">
+              <h3>Master of Science (M.S)</h3>
+              <p>University of Dhaka, Bangladesh</p>
             </div>
+            <br />
+            <p className="experience-block-text">
+              Completed ‘Master of Science (MS)’ degree from the Department of
+              Applied Physics, Electronics & Communication Engineering,
+              University of Dhaka, Bangladesh with a curricular focus on
+              communication networks.
+              <br />
+              Notable courses are as follows –
+            </p>
+            <ul className="experience-block-text">
+              <li>High Speed Computer Network</li>
+              <li>Information & Coding Theory</li>
+              <li>Advanced Data & Mobile Communication</li>
+              <li>Advanced Signal Processing</li>
+              <li>Intelligent System Engineering</li>
+            </ul>
+          </div>
+          {/* B.Sc. Block */}
+          <div className="experience-block">
+            <a
+              href="https://business.shaw.ca/"
+              className="logo-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="img/svg/DU_logo.svg"
+                className="experience-block-logo"
+                alt="exp 3 Logo"
+              />
+            </a>
+            <div className="experience-block-info">
+              <h3>Bachelor of Science (B.Sc.)</h3>
+              <p>University of Dhaka, Bangladesh</p>
+            </div>
+            <br />
+            <p className="experience-block-text">
+              Completed ‘Bachelor of Science (B.Sc)’ degree from the Department
+              of Applied Physics, Electronics & Communication Engineering,
+              University of Dhaka, Bangladesh.
+              <br />
+              Major courses related to curricular focus are as follows –
+            </p>
+            <ul className="experience-block-text">
+              <li>Analog Electronics</li>
+              <li>Digital Electronics</li>
+              <li>Electronic Circuits</li>
+              <li>Electronic Devices</li>
+              <li>Industrial & Power Electronics</li>
+              <li>Electromagnetic Theory & Antenna</li>
+              <li>Radio & Television Engineering</li>
+              <li>Telecommunication Networks</li>
+              <li>Optical Fiber Communication</li>
+              <li>Microwave & Satellite Communication</li>
+              <li>Mobile Cellular Communication</li>
+              <li>Data Communication & Computer Network</li>
+              <li>Digital Signal Processing</li>
+              <li>Communication Theory</li>
+              <li>Semiconductor Technology</li>
+            </ul>
+          </div>
         </div>
+      </div>
     );
   }
 }
