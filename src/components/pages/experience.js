@@ -1,17 +1,17 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
-//components  
-import { Link } from 'react-router-dom';
-import NavBar from '../nav-bar/nav-bar';
+//components
+import { Link } from "react-router-dom";
+import NavBar from "../nav-bar/nav-bar";
 
 class Experience extends Component {
-    componentWillReceiveProps() {
-        document.title = "Experience - Nurul Mamun Network Engineer Portfolio";
-    }
+  componentWillReceiveProps() {
+    document.title = "Experience - Nurul Mamun Network Engineer Portfolio";
+  }
 
-    componentDidMount() {
-        document.title = "Experience - Nurul Mamun Network Engineer Portfolio";
-    }
+  componentDidMount() {
+    document.title = "Experience - Nurul Mamun Network Engineer Portfolio";
+  }
 
   render() {
     return (
@@ -44,7 +44,60 @@ class Experience extends Component {
               optical network automation products which offers network designs,
               deployments, and monitoring by using SDN controllers and related
               technologies.
+              <br />
+              Key responsibilities are as follows -
             </p>
+            <ul className="experience-block-text">
+              <li>
+                Support in the identification, characterization and verification
+                of design defects or deficiencies in deployed products.
+              </li>
+              <li>
+                Diagnose and characterize product problems and symptoms prior to
+                escalation to R&D by replicating product defects using lab
+                equipment.
+              </li>
+              <li>
+                Write and review generic test plans for customer lab
+                evaluations, major initial network deployments and field trials.
+              </li>
+              <li>
+                Develop, verify, and document upgrade procedures in customer’s
+                networks.
+              </li>
+              <li>
+                Review and provide technical feedback on customer documentation.
+              </li>
+              <li>
+                Lead technical discussions with customers and R&D on product
+                defects.
+              </li>
+              <li>
+                Provide product readiness support to customers, Regional
+                Business Center’s, and account teams.
+              </li>
+              <li>
+                Develop training material for presentation to customers,
+                Regional Business Center’s, and account teams.
+              </li>
+              <li>
+                Train Regional Business Center’s in resolving complex technical
+                customer problems.
+              </li>
+              <li>
+                Debug complex product installations and resolve complicated
+                product problems by applying both established procedures and
+                creative alternatives.
+              </li>
+              <li>
+                Interfaces to customer account Teams, other Business Units, R&D
+                and PM for technical consultation and customer support concerns.
+              </li>
+              <li>
+                Provides technical and sales support for test and evaluations,
+                new product introductions, network architectures.
+              </li>
+            </ul>
           </div>
 
           <div className="experience-block">
