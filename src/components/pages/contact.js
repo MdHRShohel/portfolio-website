@@ -60,8 +60,8 @@ class Contact extends Component {
             return;
         }
         
-        emailjs.init("user_zw1NRenhx6WKqRR1JvNDu");
-        emailjs.send("gmail","jeremy_shaw_portfolio",{name: this.state.nameValue, email: this.state.emailValue, message: this.state.messageValue});
+        emailjs.init("user_6Z7Z4ZQ4Q4Z4Z4Z4Z4Z4Z");
+        emailjs.send("gmail","Nurul_Mamun_portfolio",{name: this.state.nameValue, email: this.state.emailValue, message: this.state.messageValue});
         alert("Message sent.");
 
         //reset form

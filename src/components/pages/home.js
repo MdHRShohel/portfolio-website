@@ -20,7 +20,7 @@ class Home extends Component {
           <div className="home-top-left">
             <picture className="home-top-left-image">
               {/* <source srcSet="img/webp/profile.webp" type="image/webp" /> */}
-              <source srcSet="img/png/profile.png" type="image/jpeg" />
+              {/* <source srcSet="img/png/profile.png" type="image/jpeg" /> */}
               <img src="img/png/profile.png" alt="Nurul Mamun" />
             </picture>
           </div>
@@ -95,8 +95,8 @@ class Home extends Component {
                   Github
                 </div>
               </a>
-              {/* <a
-                href="https://firebasestorage.googleapis.com/v0/b/portfolio-website-a71ab.appspot.com/o/Jeremy%20Shaw%20CV.pdf?alt=media&token=5f715bae-049a-4e90-bd23-5ac471839ba0"
+              <a
+                href="https://drive.google.com/file/d/1rokW_GZL2oCuPvIjurJfTthXy_yNFeJ1/view?usp=sharing"
                 target="_blank"
                 rel="noreferrer noopener"
               >
@@ -106,7 +106,7 @@ class Home extends Component {
                   </span>
                   Download CV
                 </div>
-              </a> */}
+              </a>
               <a
                 href="https://www.linkedin.com/in/nmamun/"
                 target="_blank"
