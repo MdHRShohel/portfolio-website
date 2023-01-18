@@ -96,8 +96,8 @@ class Home extends Component {
                 </div>
               </a>
               <a
-                href="https://drive.google.com/file/d/1rokW_GZL2oCuPvIjurJfTthXy_yNFeJ1/view?usp=sharing"
-                target="_blank"
+                href="/Resume-Nurul Mamun - Personal Website.pdf"
+                download={true}
                 rel="noreferrer noopener"
               >
                 <div className="button CV">
