@@ -111,7 +111,7 @@ class Experience extends Component {
               rel="noopener noreferrer"
             >
               <img
-                src="img/exp/shawb.png"
+                src="img/exp/Shaw.jpg"
                 className="experience-block-logo"
                 alt="exp 2 Logo"
               />
@@ -181,7 +181,7 @@ class Experience extends Component {
               rel="noopener noreferrer"
             >
               <img
-                src="img/exp/shawb.png"
+                src="img/exp/Shaw.jpg"
                 className="experience-block-logo"
                 alt="exp 3 Logo"
               />
@@ -306,7 +306,7 @@ class Experience extends Component {
               rel="noopener noreferrer"
             >
               <img
-                src="img/exp/shawb.png"
+                src="img/exp/Shaw.jpg"
                 className="experience-block-logo"
                 alt="exp 3 Logo"
               />
