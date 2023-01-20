@@ -6,6 +6,7 @@
     "emailjs-com": "^2.6.4",
     "eslint": "^6.8.0",
     "extend": ">=3.0.2",
+    "firebase-tools": "^11.21.0",
     "handlebars": "^4.7.7",
     "js-yaml": "^3.14.1",
     "lodash": "^4.17.21",
@@ -23,7 +24,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && firebase deploy",
+    "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
