@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 //components  
 import NavBar from '../nav-bar/nav-bar';
@@ -54,7 +55,7 @@ class Home extends Component {
         <div className="home-bottom">
           <div className="home-bottom-text">
             <p>
-              I am Nurul Mamun, network engineer by profession with experience
+              I am Nurul Mamun, Network Engineer by profession with experience
               on network design, lab evaluation, testing, implementation,
               troubleshooting and maintenance in complex multi-vendor platforms.
               Earned post graduate degree in Electronics & Communication
@@ -75,8 +76,8 @@ class Home extends Component {
             </p>
             <br />
             <p>
-              If you are interested in getting in touch with me, feel free to
-              drop me a line.
+              If you are interested in getting in touch with me, feel free to{" "}
+              <Link to="/contact">drop me a line.</Link>
               {/* When I'm not programming you will find me out mountain biking,
               exploring the great landscape New Zealand provides. If you are
               interested in getting in touch with me, feel free to{" "}
