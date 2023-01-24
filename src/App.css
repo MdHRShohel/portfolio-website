@@ -153,6 +153,9 @@ li:hover {
   max-width: 80vw;
   margin: 40px auto 20px auto;
 }
+.home-bottom-buttons {
+  text-align: center;
+}
 
 .button {
   padding: 10px 20px;

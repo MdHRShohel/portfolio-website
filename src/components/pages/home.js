@@ -85,6 +85,18 @@ class Home extends Component {
             </p>
             <div className="home-bottom-buttons">
               <a
+                href="https://www.linkedin.com/in/nmamun/"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <div className="button CV">
+                  <span className="icon is-small">
+                    <i className="fab fa-linkedin"></i>
+                  </span>
+                  LinkedIn
+                </div>
+              </a>
+              <a
                 href="https://github.com/nmamun"
                 target="_blank"
                 rel="noreferrer noopener"
@@ -105,21 +117,10 @@ class Home extends Component {
                   <span className="icon is-small">
                     <i className="fa fa-arrow-circle-down"></i>
                   </span>
-                  Download CV
+                  Resume
                 </div>
               </a>
-              <a
-                href="https://www.linkedin.com/in/nmamun/"
-                target="_blank"
-                rel="noreferrer noopener"
-              >
-                <div className="button CV">
-                  <span className="icon is-small">
-                    <i className="fab fa-linkedin"></i>
-                  </span>
-                  LinkedIn
-                </div>
-              </a>
+
               {/* <a href={"https://blog.?dark=" + this.props.mode}>
                 <div className="button blog">
                   <span className="icon is-small">
