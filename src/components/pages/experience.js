@@ -47,7 +47,6 @@ class Experience extends Component {
               deployments, and monitoring by using SDN controllers and related
               technologies.
               <br />
-              <br />
               Key responsibilities are as follows -
             </p>
             <ul className="experience-block-text">
@@ -133,15 +132,24 @@ class Experience extends Component {
               projects –
               <br />
               i) Conceive network design according to requirements and best
-              available technology within budget, ii) Select required hardware,
-              software, components, iii) Prepare Bill of Materials, iv) Order
-              equipment, v) Write Method of Procedures, vi) Coordinate at the
-              field, vii) Implement the design and troubleshoot if required.
+              available technology within budget, 
+              <br />
+              ii) Select required hardware,
+              software, components, 
+              <br />
+              iii) Prepare Bill of Materials, 
+              <br />
+              iv) Order equipment, 
+              <br />
+              v) Write Method of Procedures, 
+              <br />
+              vi) Coordinate at the field, 
+              <br />
+              vii) Implement the design and troubleshoot if required.
               <br />
               Moreover adaptation of new technology & hardware, liaison with
               vendors and necessary evaluation and lab testing to standardize
               every optical component is an important mandate for the team.
-              <br />
               <br />
               Key responsibilities are as follows -
             </p>
@@ -199,7 +207,6 @@ class Experience extends Component {
               24x7x365 covering group which drives incidents to resolve all
               impacting issues related to core network infrastructure - IP
               Backbone, MPLS, Transport & Data Center.
-              <br />
               <br />
               Key responsibilities are as follows but not limited to -
             </p>
