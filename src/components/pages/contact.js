@@ -1,5 +1,6 @@
 import * as emailjs from 'emailjs-com';
 import React, { Component } from 'react';
+import { toast, Toaster } from 'react-hot-toast';
 
 //components  
 import NavBar from '../nav-bar/nav-bar';
@@ -47,53 +48,81 @@ class Contact extends Component {
     }
 
     sendMessage(event) {
-        if (this.state.nameValue === '') {
-            this.setState({ nameClass: 'invalid' });
-            return;
-        }
-        if (!this.validateEmail(this.state.emailValue)) {
-            this.setState({ emailClass: 'invalid' });
-            return;
-        }
-        if (this.state.messageValue === '') {
-            this.setState({ messageClass: 'invalid' });
-            return;
-        }
-        
-        emailjs.init("template_nj98wtn");
-        emailjs.send("gmail", "client-srv-check", {
-          name: this.state.nameValue,
-          email: this.state.emailValue,
-          message: this.state.messageValue,
-        });
-        alert("Message sent.");
+      if (this.state.nameValue === "") {
+        this.setState({ nameClass: "invalid" });
+        return;
+      }
+      if (!this.validateEmail(this.state.emailValue)) {
+        this.setState({ emailClass: "invalid" });
+        return;
+      }
+      if (this.state.messageValue === "") {
+        this.setState({ messageClass: "invalid" });
+        return;
+      }
+      // 1Gc8RmJ3AfCxt0Upu  template_nj98wtn client-srv-check
+      emailjs.init("1Gc8RmJ3AfCxt0Upu");
+      emailjs.send("client-srv-check", "template_nj98wtn", {
+        user_name: this.state.nameValue,
+        to_name: "Nrurul Mamun",
+        user_email: this.state.emailValue,
+        message: this.state.messageValue,
+        reply_to: this.state.emailValue,
+      });
+    toast.success("Message sent successfully!");
 
-        //reset form
-        this.setState({nameValue: ''});
-        this.setState({emailValue: ''});
-        this.setState({messageValue: ''});
+      //reset form
+      this.setState({ nameValue: "" });
+      this.setState({ emailValue: "" });
+      this.setState({ messageValue: "" });
     }  
 
   render() {
     return (
-        <div className="contact-page">
-            <NavBar page="contact"/>
-            <div className="contact-container">
-                <h2>Contact</h2>
-                <div className="contact-form">
-                    <label htmlFor="nameInput">Name</label>
-                    <input type="text" name="nameInput" className={this.state.nameClass} id="nameInput" placeholder="Enter name" value={this.state.nameValue} onChange={this.handleName} />
-                    <label htmlFor="emailInput">Email</label>
-                    <input type="email" name="emailInput" className={this.state.emailClass} id="emailInput" placeholder="Enter your email address" value={this.state.emailValue} onChange={this.handleEmail} />
-                    <label htmlFor="messageInput">Message</label>
-                    <textarea name="messageInput" className={this.state.messageClass} id="messageInput" rows="4" value={this.state.messageValue} onChange={this.handleMessage}></textarea>
-                    <div className="button send" onClick={this.sendMessage}>
-                        <span className="icon is-small"><i className="fa fa-envelope"></i></span>
-                        Send Message
-                    </div>
-                </div>
+      <div className="contact-page">
+        <NavBar page="contact" />
+        <div className="contact-container">
+          <h2>Contact</h2>
+          <div className="contact-form">
+            <label htmlFor="nameInput">Name</label>
+            <input
+              type="text"
+              name="nameInput"
+              className={this.state.nameClass}
+              id="nameInput"
+              placeholder="Enter name"
+              value={this.state.nameValue}
+              onChange={this.handleName}
+            />
+            <label htmlFor="emailInput">Email</label>
+            <input
+              type="email"
+              name="emailInput"
+              className={this.state.emailClass}
+              id="emailInput"
+              placeholder="Enter your email address"
+              value={this.state.emailValue}
+              onChange={this.handleEmail}
+            />
+            <label htmlFor="messageInput">Message</label>
+            <textarea
+              name="messageInput"
+              className={this.state.messageClass}
+              id="messageInput"
+              rows="4"
+              value={this.state.messageValue}
+              onChange={this.handleMessage}
+            ></textarea>
+            <div className="button send" onClick={this.sendMessage}>
+              <span className="icon is-small">
+                <i className="fa fa-envelope"></i>
+              </span>
+              Send Message
             </div>
+          </div>
         </div>
+        <Toaster />
+      </div>
     );
   }
 }
