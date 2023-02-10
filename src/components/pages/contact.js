@@ -61,8 +61,8 @@ class Contact extends Component {
         return;
       }
       // 1Gc8RmJ3AfCxt0Upu  template_nj98wtn client-srv-check
-      emailjs.init("1Gc8RmJ3AfCxt0Upu");
-      emailjs.send("client-srv-check", "template_nj98wtn", {
+      emailjs.init("6Lw_S2wEwnDPGqSQ0");
+      emailjs.send("service_lsm0cpk", "template_7lxjicv", {
         user_name: this.state.nameValue,
         to_name: "Nrurul Mamun",
         user_email: this.state.emailValue,
